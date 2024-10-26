@@ -1,0 +1,21 @@
+.notification-bar {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    opacity: 0.9;
+    z-index: 1000;
+    width: fit-content;
+}
+
+.notification-bar.success {
+    background-color: #4CAF50;
+}
+
+.notification-bar.error {
+    background-color: #f44336;
+}
